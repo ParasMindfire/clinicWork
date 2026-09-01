@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>ClinicWorks</h1>
+        <h1>ClinicWorks V2</h1>
         <nav>
           <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : '')}>
             Upload
